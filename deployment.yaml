@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-react-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ShopifyX
+  template:
+    metadata:
+      labels:
+        app: ShopifyX
+    spec:
+      containers:
+      - name: ShopifyX
+        image: ShopifyX:latest
+        ports:
+        - containerPort: 3000
