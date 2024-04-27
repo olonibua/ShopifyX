@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar'
 
 const E_Development = () => {
   return (
-    <div className='leading-6 sm:leading-7'>
+    <div className='leading-6 sm:leading-8'>
         <Navbar />
         <div className='grid md:grid-cols-3 max-w-[300px] sm:max-w-[500px] md:max-w-[700px] lg:max-w-[1100px] mx-auto'>
         <div className='col-span-2'>
